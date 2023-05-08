@@ -18,9 +18,13 @@
 .Profile-photo {
     display: flex;
     border-radius: 50%;
-    width: auto;
-    height: 70%;
-}
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer
+  }
+  
 
 .Full-name {
     font-weight: 500;
