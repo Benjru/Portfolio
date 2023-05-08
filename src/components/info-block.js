@@ -21,7 +21,7 @@ const InfoBlock = ({ header, text, icon, attribution, attLink, attName }) => {
       <div className="Header-text">{header}</div>
       <img src={icon} className="Icon" alt="InfoBlock icon" />
       <div className="Body-text">{text}</div>
-      <a href={attLink} title={attName}>
+      <a href={attLink} title={attName} className="Attribution">
         {attribution}
       </a>
     </div>
