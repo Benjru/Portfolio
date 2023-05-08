@@ -1,6 +1,5 @@
 .InfoBlock {
     background-color: white;
-    border: 7px solid #282c34;
     border-radius: 10px;
     height: 70vh;
     max-height: 700px;
@@ -10,39 +9,42 @@
     align-items: center;
     transition: all 0.3s ease;
     box-sizing: border-box;
-}
-
-.InfoBlock.hovered {
+    /* overflow: hidden; */
+    box-shadow: 0 0 0 7px #282c34; /* Apply the border effect using box-shadow */
+  }
+  
+  .InfoBlock.hovered {
     transform: scale(1.05);
-}
-
-.Icon {
+  }
+  
+  .Icon {
     width: auto;
     height: auto;
     max-width: 100%;
     max-height: 30%;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.Header-text {
+  }
+  
+  .Header-text {
     font-size: 50px;
     font-weight: 600;
     padding-bottom: 20px;
     background-color: #282c34;
     text-align: center;
     color: white;
-    width: 103%;
-}
-
-.Body-text {
+    width: 100%;
+  }
+  
+  .Body-text {
     height: 200px;
     width: 80%;
     text-align: center;
     padding-top: 10px;
-}
-
-.Attribution {
+  }
+  
+  .Attribution {
     text-align: center;
     width: 90%;
-}
+  }
+  
