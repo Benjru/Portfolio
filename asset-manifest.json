@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a4f21ec9.css",
-    "main.js": "/Portfolio/static/js/main.9b2a163b.js",
-    "static/js/496.1ebda612.chunk.js": "/Portfolio/static/js/496.1ebda612.chunk.js",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.4c15925137c9e230e20b.pdf",
-    "static/media/education.png": "/Portfolio/static/media/education.f2b17182ccfcdf1d7199.png",
-    "static/media/pfp.jpg": "/Portfolio/static/media/pfp.ce301ca7f0bf8dc8213f.jpg",
-    "static/media/id-card.png": "/Portfolio/static/media/id-card.c9de1ab7f4a0f5c5d080.png",
-    "static/media/code.png": "/Portfolio/static/media/code.0c5ac0ce8c144c07a59b.png",
-    "index.html": "/Portfolio/index.html",
-    "main.a4f21ec9.css.map": "/Portfolio/static/css/main.a4f21ec9.css.map",
-    "main.9b2a163b.js.map": "/Portfolio/static/js/main.9b2a163b.js.map",
-    "496.1ebda612.chunk.js.map": "/Portfolio/static/js/496.1ebda612.chunk.js.map"
+    "main.css": "/Portfolio/home/static/css/main.a4f21ec9.css",
+    "main.js": "/Portfolio/home/static/js/main.3c4c232b.js",
+    "static/js/496.1ebda612.chunk.js": "/Portfolio/home/static/js/496.1ebda612.chunk.js",
+    "static/media/resume.pdf": "/Portfolio/home/static/media/resume.4c15925137c9e230e20b.pdf",
+    "static/media/education.png": "/Portfolio/home/static/media/education.f2b17182ccfcdf1d7199.png",
+    "static/media/pfp.jpg": "/Portfolio/home/static/media/pfp.ce301ca7f0bf8dc8213f.jpg",
+    "static/media/id-card.png": "/Portfolio/home/static/media/id-card.c9de1ab7f4a0f5c5d080.png",
+    "static/media/code.png": "/Portfolio/home/static/media/code.0c5ac0ce8c144c07a59b.png",
+    "index.html": "/Portfolio/home/index.html",
+    "main.a4f21ec9.css.map": "/Portfolio/home/static/css/main.a4f21ec9.css.map",
+    "main.3c4c232b.js.map": "/Portfolio/home/static/js/main.3c4c232b.js.map",
+    "496.1ebda612.chunk.js.map": "/Portfolio/home/static/js/496.1ebda612.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4f21ec9.css",
-    "static/js/main.9b2a163b.js"
+    "static/js/main.3c4c232b.js"
   ]
 }
