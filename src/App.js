@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import HeaderIcons from './components/header-icons'
 import HeaderProfile from './components/header-profile'
 import Home from './components/home-page'
@@ -16,6 +16,7 @@ const App = () => {
           <HeaderIcons />
         </div>
         <Routes>
+          <Route path="/" element={<Navigate to="/home"/>} />
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />
