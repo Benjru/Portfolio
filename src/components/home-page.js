@@ -1,7 +1,15 @@
+import { useNavigate } from 'react-router-dom';
 import InfoBlock from './info-block'
 import './home-page.css';
 
 function Home() {
+
+    const navigate = useNavigate();
+
+    const handleInfoBlockClick = (route) => {
+      navigate(route);
+    };
+
     return(
         <div className="App-body">
             <InfoBlock
@@ -11,6 +19,7 @@ function Home() {
                 attLink="https://www.flaticon.com/free-icons/code" 
                 attName="code icons" 
                 icon={require("../assets/code.png")}
+                onClick={() => handleInfoBlockClick('/projects')}
             />
             <InfoBlock
                 header="Education" 
@@ -19,6 +28,7 @@ function Home() {
                 attLink="https://www.flaticon.com/free-icons/education"
                 attName="education icons"
                 icon={require("../assets/education.png")}
+                onClick={() => handleInfoBlockClick('/education')}
             />
             <InfoBlock
                 header="About" 
@@ -27,6 +37,7 @@ function Home() {
                 attLink="https://www.flaticon.com/free-icons/about-person"
                 attName="about person icons"
                 icon={require("../assets/id-card.png")}
+                onClick={() => handleInfoBlockClick('/about')}
             />
         </div>
     );

@@ -11,6 +11,7 @@
     box-sizing: border-box;
     /* overflow: hidden; */
     box-shadow: 0 0 0 7px #282c34; /* Apply the border effect using box-shadow */
+    cursor: pointer;
   }
   
   .InfoBlock.hovered {
