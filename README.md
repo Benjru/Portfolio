@@ -1,6 +1,6 @@
 ### W.I.P.
 
-This is the source code for [my portfolio website](https://benjru.github.io/Portfolio/#/home).
+This is the source code for [my portfolio website](https://benjru.github.io/Portfolio/).
 
 ### Screenshot
 
