@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './info-block.css';
 
-const InfoBlock = ({ header, text, icon, attribution, attLink, attName, onClick}) => {
+const InfoBlock = ({ header, text, icon, attribution, attLink, attName, onClick, numComponents}) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -12,12 +12,15 @@ const InfoBlock = ({ header, text, icon, attribution, attLink, attName, onClick}
     setIsHovered(false);
   };
 
+  const componentWidth = `${81 / (numComponents)}%`;
+
   return (
     <div
       onClick={onClick}
       className={`InfoBlock ${isHovered ? 'hovered' : ''}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      style={{ width: componentWidth }}
     >
     <div className="Header-text">{header}</div>
     <img src={icon} className="Icon" alt="InfoBlock icon" />

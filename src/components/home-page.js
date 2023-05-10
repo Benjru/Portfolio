@@ -20,15 +20,17 @@ function Home() {
                 attName="code icons" 
                 icon={require("../assets/code.png")}
                 onClick={() => handleInfoBlockClick('/projects')}
+                numComponents='3'
             />
             <InfoBlock
                 header="Education" 
-                text="Want more detailed information about my education? Click here to see for the full breakdown"
+                text="Want more detailed information about my education? Click here to see the full breakdown"
                 attribution="Education icons created by Freepik - Flaticon"
                 attLink="https://www.flaticon.com/free-icons/education"
                 attName="education icons"
                 icon={require("../assets/education.png")}
                 onClick={() => handleInfoBlockClick('/education')}
+                numComponents='3'
             />
             <InfoBlock
                 header="About" 
@@ -38,6 +40,7 @@ function Home() {
                 attName="about person icons"
                 icon={require("../assets/id-card.png")}
                 onClick={() => handleInfoBlockClick('/about')}
+                numComponents='3'
             />
         </div>
     );
