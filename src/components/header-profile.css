@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
     padding-left: 1%;
     font-size: calc(10px + 2vmin);
     color: white;
@@ -12,17 +11,21 @@
 
 .Profile-header {
     text-align: left;
-    padding: 3%;
+    padding-left: 3%;
+    align-items: center;
+    flex-direction: column;
+    max-height: 120px;
+    overflow: hidden;
 }
 
 .Profile-photo {
     display: flex;
-    border-radius: 50%;
+    border-radius: 50px;
     width: 100px;
     height: 100px;
     background-size: cover;
     background-position: center;
-    cursor: pointer
+    cursor: pointer;
   }
   
 
