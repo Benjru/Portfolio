@@ -24,7 +24,7 @@ function Home() {
             />
             <InfoBlock
                 header="Education" 
-                text="Want more detailed information about my education? Click here to see the full breakdown"
+                text="Want more detailed information about my education? Click here to see the full breakdown."
                 attribution="Education icons created by Freepik - Flaticon"
                 attLink="https://www.flaticon.com/free-icons/education"
                 attName="education icons"
