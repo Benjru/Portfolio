@@ -14,7 +14,7 @@ function Home() {
         <div className="App-body">
             <InfoBlock
                 header="Projects"
-                text="Want to learn more about the projects I've been working on? Click here to see a detailed breakdown of each one. Alternatively, you can click the github icon to go directly to my Github profile." 
+                text="Want to learn more about the projects I've been working on? Click here to see a detailed breakdown of each one. Alternatively, you can click the Github icon to go directly to my Github profile." 
                 attribution="Code icons created by Freepik - Flaticon" 
                 attLink="https://www.flaticon.com/free-icons/code" 
                 attName="code icons" 
