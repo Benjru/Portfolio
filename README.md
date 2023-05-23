@@ -1,7 +1,9 @@
-### W.I.P.
+### Portfolio website
 
-This is the source code for [my portfolio website](https://benjru.github.io/Portfolio/).
+This repository contains the source code for [my portfolio website](https://benjru.github.io/Portfolio/).
 
-### Screenshot
+### Screenshots
 
-![portfolio_screenshot](https://user-images.githubusercontent.com/95383688/236708727-01bbda3a-d09f-4d8f-a74f-8fd7aa381df9.png)
+![Screenshot_web_1](https://github.com/Benjru/Portfolio/assets/95383688/7d4fc633-55d3-4084-be49-557424a13aa3)
+![Screenshot_web_2](https://github.com/Benjru/Portfolio/assets/95383688/6951d20b-f4ab-4359-b1c1-2fda49634787)
+
