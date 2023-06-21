@@ -1,8 +1,6 @@
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import { BsFillEnvelopePaperFill } from 'react-icons/bs';
 import { ImMail } from 'react-icons/im'
 import './header-icons.css';
-import resume from '../assets/resume.pdf';
 
 function HeaderIcons() {
     return (
@@ -18,10 +16,6 @@ function HeaderIcons() {
         <div className="Icon-wrapper">
             <a href="mailto:ben.hallihan1@gmail.com" className="Text-properties"><ImMail size={50}/></a>
             <text>E-Mail</text>
-        </div>
-        <div className="Icon-wrapper">
-            <a href={resume} download="Benjamin Hallihan's Résumé" className="Text-properties"><BsFillEnvelopePaperFill size={50}/></a>
-            <text>Résumé</text>
         </div>
       </div>
     );
